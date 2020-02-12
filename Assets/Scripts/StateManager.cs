@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using DefaultNamespace;
-using ExitGames.Client.Photon;
-using Photon.Pun;
-using Photon.Realtime;
+﻿using Photon.Pun;
 using UnityEngine;
-using UnityEngine.Windows.WebCam;
 
 
 public class StateManager : MonoSingleton<StateManager>

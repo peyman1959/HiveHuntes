@@ -1,0 +1,28 @@
+Converting script [1 / 4]	[\Scripts\LevelUiManager.cs]
+	Fragments : 1
+		[ 0] : Line:   74	Other mod.	[Cursor.visible]
+
+Converting script [2 / 4]	[\Scripts\PlayerAttack.cs]
+	Fragments : 2
+		[ 0] : Line:   41	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   51	InputMethod   GetMouseButton      	(0)
+
+Converting script [3 / 4]	[\Scripts\PlayerManager.cs]
+	Fragments : 1
+		[ 0] : Line:   21	Other mod.	[Cursor.visible]
+
+Converting script [4 / 4]	[\Scripts\PlayerMovement.cs]
+	Fragments : 3
+		[ 0] : Line:   37	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:   38	InputMethod   GetAxis             	("Vertical")
+		[ 2] : Line:   46	InputProperty mousePosition       
+
+
+4 scripts modified!
+Overwriting actual scripts...
+	[0 / 4] from  [C:/Users/Peyman/Documents/GitHub/HiveHuntes/CF2-Data/Script-Backups/2020-02-12-16-08\Assets-After/\Scripts\LevelUiManager.cs] to [C:/Users/Peyman/Documents/GitHub/HiveHuntes/Assets/\Scripts\LevelUiManager.cs]
+	[1 / 4] from  [C:/Users/Peyman/Documents/GitHub/HiveHuntes/CF2-Data/Script-Backups/2020-02-12-16-08\Assets-After/\Scripts\PlayerAttack.cs] to [C:/Users/Peyman/Documents/GitHub/HiveHuntes/Assets/\Scripts\PlayerAttack.cs]
+	[2 / 4] from  [C:/Users/Peyman/Documents/GitHub/HiveHuntes/CF2-Data/Script-Backups/2020-02-12-16-08\Assets-After/\Scripts\PlayerManager.cs] to [C:/Users/Peyman/Documents/GitHub/HiveHuntes/Assets/\Scripts\PlayerManager.cs]
+	[3 / 4] from  [C:/Users/Peyman/Documents/GitHub/HiveHuntes/CF2-Data/Script-Backups/2020-02-12-16-08\Assets-After/\Scripts\PlayerMovement.cs] to [C:/Users/Peyman/Documents/GitHub/HiveHuntes/Assets/\Scripts\PlayerMovement.cs]
+
+Overwriting COMPLETED!

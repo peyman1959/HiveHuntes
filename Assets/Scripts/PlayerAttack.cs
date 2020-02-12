@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using DefaultNamespace;
 using Photon.Pun;
 using UnityEditor;
@@ -38,7 +38,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (weapon.type == WeaponType.Pistol)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.F))
             {
                 _playerManager._pv.RPC("shoot", RpcTarget.All, weapon.power);
                 weapon.ammo--;
@@ -48,7 +48,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (weapon.type == WeaponType.AssaultRifle)
         {
-            if (Input.GetMouseButton(0))
+            if (ControlFreak2.CF2Input.GetKey(KeyCode.F))
             {
                 if (Time.time > nextShot)
                 {
@@ -65,7 +65,6 @@ public class PlayerAttack : MonoBehaviour
     {
         float fill =
             weapon.ammo / weapon.maxAmmo;
-        Debug.Log( weapon.ammo +"/"+ weapon.maxAmmo+"="+fill);
         LevelUiManager.Instance.ammoSlider.fillAmount = fill;
     }
 
